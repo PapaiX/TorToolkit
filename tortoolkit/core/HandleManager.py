@@ -613,7 +613,7 @@ async def upload_document_f(message):
             )
             # torlog.info(recvd_response)
     else:
-        await message.reply("Only for owner")
+        await message.reply("Only for owner🚦")
     await imsegd.delete()
 
 
@@ -644,7 +644,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkitX running on heroku an instance of <a href='https://t.me//shado_hackers'>create</a>. <a href='https://t.me//OMG_info'>group</a>."
+    msg = "Hello🖖 This is TorToolkitX running on heroku an instance of <a href='https://t.me//shado_hackers'>create</a>. <a href='https://t.me//OMG_info'>group</a>."
     await event.reply(msg, parse_mode="html")
 
 
@@ -933,7 +933,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "𝙼𝚎𝚑!😏  𝚒𝚜 𝚋𝚘𝚘𝚝𝚎𝚍 ⚡, 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚞𝚜𝚎🚨,𝙺𝚒𝚗𝚍𝚕𝚢 𝚛𝚎 𝚜𝚎𝚗𝚍 𝚕𝚒𝚗𝚔𝚜👩‍💻")
+            await client.send_message(i, "||𝙼𝚎𝚑!😏  𝚒𝚜 𝙰𝚕𝚒𝚟𝚎⚡||, 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚞𝚜𝚎🚨,𝙺𝚒𝚗𝚍𝚕𝚢 𝚛𝚎 𝚜𝚎𝚗𝚍 𝚕𝚒𝚗𝚔𝚜👩‍💻")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
